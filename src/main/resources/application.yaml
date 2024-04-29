@@ -1,0 +1,11 @@
+spring:
+  spring:
+    h2:
+      console.enabled: true
+  datasource:
+    url: jdbc:h2:mem:assessment.grad001.melusi_mkhize
+    username: assessment.grad001.melusi_mkhize
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
